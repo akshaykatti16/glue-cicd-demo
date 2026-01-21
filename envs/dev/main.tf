@@ -7,6 +7,6 @@ module "glue_job" {
   job_name        = "hello-glue-dev"
   role_arn        = var.role_arn
   script_location = var.script_location
-  env_name        = "DEV"
-  message         = "Bonjour from DEV environment"
+  env_name        = "DEV-UAE1"
+  message         = "Namaste from DEV environment"
 }
