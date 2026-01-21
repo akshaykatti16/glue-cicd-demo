@@ -17,9 +17,6 @@ jobs:
 
       - uses: hashicorp/setup-terraform@v3
 
-      - name: Set AWS creds
-        run: echo "AWS creds will be injected from secrets"
-
       - name: Terraform Init
         working-directory: envs/dev
         env:
